@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/globals.css */
+@font-face {
+    font-family: 'blippo';
+    src: url('/fonts/blippo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'grotesque';
+    src: url('/fonts/grotesque.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.blippo {
+    font-family: 'blippo', sans-serif!important;
+}
+.grotesque {
+    font-family: 'grotesque', sans-serif!important;
+}
+
 /*:root {*/
 /*  --foreground-rgb: 0, 0, 0;*/
 /*  --background-start-rgb: 214, 219, 220;*/
